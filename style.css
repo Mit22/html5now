@@ -291,7 +291,7 @@ ol {
 
 .buy_li:before {
   counter-increment: myCounter;
-  content:counter(myCounter);
+  content:counter(myCounter) ".";
   color: white;
   display: inline-block;
   text-align: center;
