@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/test.css">
+        <style> @import url('https://fonts.googleapis.com/css?family=Russo+One');
+        @import url('https://fonts.googleapis.com/css?family=Prosto+One|Russo+One');
+
+        body {
+            margin: 0;
+            background: #e67e9e;
+            min-height: 300vh;
+            position: relative;
+        }
+
+        video {
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+
+        .onVideo {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap {
+            width: 60%;
+        }
+
+        p {
+            font-family: 'Russo One', sans-serif;
+            font-size: 50px;
+            text-align: center;
+            color: #00f3ff;
+            text-shadow: 0 0 5px #0400ff;
+        }
+
+        @media (max-width: 767px) {
+            p {
+                font-size: 30px;
+            }
+        }
+
+        /*кнопка взята отсюда https://www.bestcssbuttongenerator.com/#/26*/
+
+        button {
+            margin: 0 auto;
+            display: block;
+            -moz-box-shadow: 0px 0px 22px 4px #fff6af;
+            -webkit-box-shadow: 0px 0px 22px 4px #fff6af;
+            box-shadow: 0px 0px 2px 1px #fff6af;
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+            background: -moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+            background: -webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+            background: -o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+            background: -ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+            background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23', GradientType=0);
+            background-color: #ffec64;
+            -moz-border-radius: 7px;
+            -webkit-border-radius: 7px;
+            border-radius: 7px;
+            border: 2px solid #ffaa22;
+            cursor: pointer;
+            color: #333333;
+            font-family: 'Prosto One', cursive;
+            font-size: 19px;
+            font-weight: bold;
+            padding: 15px 40px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #ffee66;
+            outline: none;
+        }
+
+        button:hover {
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+            background: -moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+            background: -webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+            background: -o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+            background: -ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+            background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64', GradientType=0);
+            background-color: #ffab23;
+        }
+
+        button:active {
+            position: relative;
+            top: 1px;
+        }
+        </style>
+    </head>
+    <body>
+        <video src="https://gcs-vimeo.akamaized.net/exp=1573196984~acl=%2A%2F1013716630.mp4%2A~hmac=fd052ace288d79cdcde01200212abb9167de12b9bf74934d267462803f8d40f5/vimeo-prod-skyfire-std-us/01/4497/10/272487468/1013716630.mp4" muted autoplay loop></video>
+        <div class="onVideo">
+            <div class="wrap">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, itaque, quae?
+                </p>
+                <button>Get more!</button>
+            </div>
+        </div>
+    </body>
+</html>

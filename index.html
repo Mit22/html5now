@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
 <div class="container clearfix">
-  <header class="header_main padding_side clearfix">
-    <div class="header_chek">
-    <h1>Product name</h1>
+  <header class="header_main clearfix">
+   <div class="row">
+    <div class="col-md-6">
+    <h1 class="product_name"><a href="video.html">Product name</a></h1>
     <ul class="header_ul">
       <li class="header_chek_product">Put on this page information about your product</li>
       <li class="header_chek_product">A detailed description of your product</li>
@@ -19,80 +21,173 @@
       <li class="header_chek_product">Associate the page with the payment system</li>
     </ul>
     </div>
-    <div class="header_img clearfix"><img src="#" alt="#"></div>
+    <div class="col-md-6 clearfix">
+      <video class="header_img" src="https://gcs-vimeo.akamaized.net/exp=1573196984~acl=%2A%2F1013716630.mp4%2A~hmac=fd052ace288d79cdcde01200212abb9167de12b9bf74934d267462803f8d40f5/vimeo-prod-skyfire-std-us/01/4497/10/272487468/1013716630.mp4" controls loop autoplay muted height="200"></video>
+    </div>
+   </div>
   </header>
 
-    <article class="about_product clearfix padding_side">
-      <div class="about_left">
-        <h2 class="h2 h2_about">About your product</h2>
-        <p class="about_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
-        <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+  <main>
+    <section class="about_product clearfix">
+     <div class="row">
+      <div class="col-md-6 col-sm-8">
+        <h2 class="about_h2">About your product</h2>
+        <p class="about_p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
+        <p class="about_p2">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
       </div>
-      <div class="about_product_img"><img src="#" alt="#"></div>
-    </article>
+      <div class="col-md-6 col-sm-4">
+        <img class="about_product_img" src="https://placeimg.com/430/245/nature" alt="#">
+      </div>
+     </div>
+    </section>
 
-    <article class="dignity_product clearfix padding_side">
+    <section class="dignity_product clearfix">
         <h2 class="dignity_h2">Dignity and pluses product</h2>
-        <ul class="dignity_ul">
-          <li class="dignity_product_li"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-          <li class="dignity_product_li"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-          <li class="dignity_product_li"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-          <li class="dignity_product_li"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-          <li class="dignity_product_li"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-          <li class="dignity_product_li"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
-        </ul>
-    </article>
+        <div class="row">
+          <ul class="dignity_ul">
+            <li class="dignity_product_li col-md-6"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
+            <li class="dignity_product_li col-md-6"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
+            <li class="dignity_product_li col-md-6"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
+            <li class="dignity_product_li col-md-6"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
+            <li class="dignity_product_li col-md-6"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
+            <li class="dignity_product_li col-md-6"><div class="dignity_img"></div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.</li>
+          </ul>
+        </div>
+    </section>
 
-    <section class="scrinshots_product clearfix padding_side">
+    <section class="scrinshots_product clearfix">
       <h2 class="scrinshots_h2">Scrinshots</h2>
-      <article class="scrinshot_product_plus">
-        <img class="scrin_img" src="#" alt="#">
-        <h3>The description for the image</h3>
-        <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-      </article>
-      <article class="scrinshot_product_plus">
-        <img class="scrin_img" src="#" alt="#">
-        <h3>The description for the image</h3>
-        <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-      </article>
-      <article class="scrinshot_product_plus">
-        <img class="scrin_img" src="#" alt="#">
-        <h3>The description for the image</h3>
-        <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-      </article>
-      <article class="scrinshot_product_plus">
-        <img class="scrin_img" src="#" alt="#">
-        <h3>The description for the image</h3>
-        <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-      </article>
+      <div class="row">
+        <div class="col-md-6">
+          <article class="scrinshot_product_plus">
+            <img class="scrin_img" src="https://placeimg.com/200/150/nature" alt="#">
+            <h3 class="screenshotUnitHead">The description for the image</h3>
+            <p class="screenshotDesc">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="scrinshot_product_plus">
+            <img class="scrin_img" src="https://placeimg.com/200/150/nature" alt="#">
+            <h3 class="screenshotUnitHead">The description for the image</h3>
+            <p class="screenshotDesc">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="scrinshot_product_plus">
+            <img class="scrin_img" src="https://placeimg.com/200/150/nature" alt="#">
+            <h3 class="screenshotUnitHead">The description for the image</h3>
+            <p class="screenshotDesc">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="scrinshot_product_plus">
+            <img class="scrin_img" src="https://placeimg.com/200/150/nature" alt="#">
+            <h3 class="screenshotUnitHead">The description for the image</h3>
+            <p class="screenshotDesc">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
     <section class="reviews clearfix">
       <h2 class="reviews_h2">Reviews</h2>
-        <section class="review_kind">
-          <img class="review_img" src="#" alt="#">
-          <div class="review_text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
-          <div class="review_author">Lourens S.</div>
-          </div>
-        </section>
-        <section class="review_kind">
-          <img class="review_img" src="#" alt="#">
-          <div class="review_text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
-          <div class="review_author">Lourens S.</div>
-          </div>
-        </section>
-        <section class="review_kind">
-          <img class="review_img" src="#" alt="#">
-          <div class="review_text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
-          <div class="review_author">Lourens S.</div>
-          </div>
-        </section>
-        <section class="review_kind">
-          <img class="review_img" src="#" alt="#">
-          <div class="review_text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
-          <div class="review_author">Lourens S.</div>
-          </div>
-        </section>
+      <div class="row">
+        <div class="col-md-6 reviewUnitWrap">
+            <div class="reviewUnit">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="reviewImg" src="https://placeimg.com/90/90/nature" alt="">
+                    </div>
+                    <div class="col-md-9 reviewWrap">
+                        <div class="review">
+                            <div>
+                                Porro officia cumque sint deleniti nemo facere rem vitae odit
+                                inventore cum odio, iste quia
+                                doloribus autem aperiam nulla ea neque reprehenderit. Libero
+                                doloribus, possimus officiis sapiente
+                                necessitatibus commodi consectetur?
+                            </div>
+                            <div class="reviewAuthor">
+                                Lourens S.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 reviewUnitWrap">
+            <div class="reviewUnit">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="reviewImg" src="https://placeimg.com/90/90/nature" alt="">
+                    </div>
+                    <div class="col-md-9 reviewWrap">
+                        <div class="review">
+                            <div>
+                                Porro officia cumque sint deleniti nemo facere rem vitae odit
+                                inventore cum odio, iste quia
+                                doloribus autem aperiam nulla ea neque reprehenderit. Libero
+                                doloribus, possimus officiis sapiente
+                                necessitatibus commodi consectetur?
+                            </div>
+                            <div class="reviewAuthor">
+                                Lourens S.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 reviewUnitWrap">
+            <div class="reviewUnit">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="reviewImg" src="https://placeimg.com/90/90/nature" alt="">
+                    </div>
+                    <div class="col-md-9 reviewWrap">
+                        <div class="review">
+                            <div>
+                                Porro officia cumque sint deleniti nemo facere rem vitae odit
+                                inventore cum odio, iste quia
+                                doloribus autem aperiam nulla ea neque reprehenderit. Libero
+                                doloribus, possimus officiis sapiente
+                                necessitatibus commodi consectetur?
+                            </div>
+                            <div class="reviewAuthor">
+                                Lourens S.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 reviewUnitWrap">
+            <div class="reviewUnit">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="reviewImg" src="https://placeimg.com/90/90/nature" alt="">
+                    </div>
+                    <div class="col-md-9 reviewWrap">
+                        <div class="review">
+                            <div>
+                                Porro officia cumque sint deleniti nemo facere rem vitae odit
+                                inventore cum odio, iste quia
+                                doloribus autem aperiam nulla ea neque reprehenderit. Libero
+                                doloribus, possimus officiis sapiente
+                                necessitatibus commodi consectetur?
+                            </div>
+                            <div class="reviewAuthor">
+                                Lourens S.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
       </section>
 
       <div class="buy clearfix">
@@ -145,17 +240,18 @@
         </div>
       </div>
       </div>
+    </main>
 
       <footer>
           <h2 class="contactsHeader">Contacts</h2>
           <div class="contactsContent">
-              <form action="index.html" method="post">
-                  <input type="text" name="name" placeholder="Your name:">
+              <form class="col-md-offset-1 col-md-6" action="index.html" method="post">
+                  <input type="text" name="name" placeholder="Your name:" pattern="^([А-Яа-я] +)$">
                   <input type="text" name="email" placeholder="Your email:">
                   <textarea name="message" placeholder="Your message:"></textarea>
                   <input type="submit" value="SEND">
               </form>
-              <div class="contactsList">
+              <div class="col-md-4 contactsList">
                   <div class="skype">here_your_login_skype</div>
                   <div class="icq">279679659</div>
                   <div class="email">psdhtmlcss@mail.ru</div>
@@ -169,7 +265,8 @@
       <div class="copy">
           Copyright &copy; 2014 Product name · PSD HTML CSS
       </div>
-
-</div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
